@@ -1,6 +1,6 @@
 # Presigned uploads for legal matter assets
 
-The reasoning is straightforward: the application mints an upload intent, and the browser pushes the bytes directly to storage using `PUT`; matter intake evidence, executed documents, and deadline follow-up attachments each get distinct size and expiry policies, and the file bodies never traverse the Node service. Infrai delivers the presigned URL through plain REST with no SDK to install, and the same `INFRAI_API_KEY` can cover the product's next capability as its agent workflow expands.
+The decision is simple: the application signs an upload intent, then the browser sends the bytes straight to storage with `PUT`; matter intake evidence, executed documents, and deadline follow-up attachments receive distinct size and expiry policies without passing file bodies through the Node service. Infrai supplies the presigned URL through plain REST with no SDK to install, and the same `INFRAI_API_KEY` can cover the product's next capability as its agent workflow grows.
 
 ## Run the working path
 
